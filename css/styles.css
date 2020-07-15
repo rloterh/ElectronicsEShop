@@ -7,6 +7,11 @@
   src: url("../assets/fonts/GothamRounded-Light.otf"); 
 }
 
+@font-face {
+  font-family: "Gotham Rounded-Bold";
+  src: url("../assets/fonts/GothamRounded-Bold.otf"); 
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -16,6 +21,11 @@
 
 body {
   font-family: 'Gotham Rounded-Light', sans-serif;
+}
+
+.bold-face {
+  font-family: 'Gotham Rounded-Bold', sans-serif;
+  font-weight: 700;
 }
 
 .header-nav {
@@ -94,14 +104,12 @@ body {
 }
 
 .product-search-section {
-  padding: 50px 8%;
-}
-
-.product-search-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d35266;
+  background: #d35266 url(../images/hero-bg-logo.png) no-repeat 28% 20%;
+  padding: 50px 8%;
+  
 }
 
 .search-hero-title {
@@ -111,17 +119,20 @@ body {
   font-weight: 700;
   color: #fff;
 }
+
 .search-attention-text {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 500;
   letter-spacing: 0.15rem;
   color: #fff;
+  margin-bottom: 60px;
 }
 
 .product-search {
   width: 100%;
 }
+
 .product-search-form {
   display: flex;
   max-width: 900px;
@@ -130,13 +141,14 @@ body {
 
 .product-search-form select {
   color: #888;
-  font-size: 12px;
+  font-size: 1.3rem;
+  padding-left: 8px;
   border: 0;
 }
 
 .product-search-form input {
   padding: 10px;
-  padding-left: 5px;
+  padding-left: 8px;
   margin-left: 1px;
   width: 100%;
   font-size: 1.3rem;
@@ -151,4 +163,71 @@ body {
   margin-left: 3px;
   border-radius: 1px;
   border: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.hot-ad {
+  padding: 50px 8%;
+}
+
+.hot-ad .hot-ad-title {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+}
+
+.hot-ad-article {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 50px;
+}
+
+.hot-ad .ad-details {
+  margin-top: 40px;
+}
+
+.hot-ad-image img {
+  padding: 20px;
+  /* background: rgba(182, 230, 11, 0.7) url("../assets/patterns/criss-cross.png") repeat; */
+  /* background-color: goldenrod; */
+}
+
+.ad-details h3 {
+  color: #d35266;
+  font-size: 2rem;
+  line-height: 2.4rem; 
+  margin-bottom: 10px;
+}
+
+.ad-details p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.ads-buy-button {
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #dd3355;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.ads-buy-button li {
+  display: inline;
+  padding: 15px 25px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.ads-buy-button li i {
+  font-size: 1.8rem;
+  margin-right: 10px;
+}
+
+.ads-buy-button ul > li:first-child {
+  border-right: #383838 solid 1px;
 }
