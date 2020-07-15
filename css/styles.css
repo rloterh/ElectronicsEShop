@@ -366,3 +366,50 @@ body {
 .mtop-60 {
   margin-top: 60px;
 }
+
+.footer {
+  font-size: 1.5rem;
+}
+
+.footer-contents-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px 8%;
+}
+
+.footer-eshop-highlight img {
+  max-width: 80px;
+  height: auto;
+}
+
+.footer-categories-nav ul,
+.footer-navigations {
+  list-style: none;
+}
+
+.footer-categories-nav li a{
+  text-decoration: none;
+  color: #383838;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.footer-copyright {
+  padding: 50px 8%;
+}
+
+.footer-copyright p {
+  text-align: center;
+  border-top: solid 1px #888;
+}
+
+.fheader {
+  font-family: 'Gotham Rounded-Bold', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-weight: 500;
+  color: #d35266;
+  text-transform: uppercase;
+}
