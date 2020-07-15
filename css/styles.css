@@ -362,3 +362,7 @@ body {
   color: #b9374a;
   letter-spacing: 0.1rem;
 }
+
+.mtop-60 {
+  margin-top: 60px;
+}
