@@ -37,7 +37,8 @@ body {
   max-height: 40px;
 }
 
-.main-logo h2 {
+.main-logo .logo-text {
+  text-decoration: none;
   color: #fff;
   font-size: 2.5rem;
   font-weight: 700;
@@ -90,4 +91,64 @@ body {
   border: 2px solid #555;
   border-radius: 18px;
   width: 100%;
+}
+
+.product-search-section {
+  padding: 50px 8%;
+}
+
+.product-search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d35266;
+}
+
+.search-hero-title {
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 7rem;
+  font-weight: 700;
+  color: #fff;
+}
+.search-attention-text {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
+  color: #fff;
+}
+
+.product-search {
+  width: 100%;
+}
+.product-search-form {
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+}
+
+.product-search-form select {
+  color: #888;
+  font-size: 12px;
+  border: 0;
+}
+
+.product-search-form input {
+  padding: 10px;
+  padding-left: 5px;
+  margin-left: 1px;
+  width: 100%;
+  font-size: 1.3rem;
+  border: 0;
+}
+
+.product-search-form .search-button { 
+  color: #888;
+  background-color: #383838;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 3px;
+  border-radius: 1px;
+  border: 0;
 }

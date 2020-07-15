@@ -16,7 +16,7 @@
     <nav class="header-nav">
       <div class="main-logo">
         <img src="images/eshop_logo.png" alt="logo">
-        <h2>etroniques</h2>
+        <a class="logo-text">etroniques</a>
       </div>
       <ul class="main-menu">
         <li><a href="#"><i class="fas fa-home"></i>home</a></li>
@@ -34,7 +34,25 @@
   </header>
 
   <main>
-
+    <section class="product-search-section">
+      <h1 class="search-hero-title">etroniques</h1>
+      <h3 class="search-attention-text">Welcome of the Best DEALS yet, save whiles you shop quality!</h3>
+      <div class="product-search">
+        <form class="product-search-form">
+          <select name=categories>
+            <option>iProducts</option>
+            <option value=iphones>iPhones</option>
+            <option value=iPad>iPad</option>
+            <option value=iMac>iMac</option>
+            <option value=macBookPro>macBook Pro</option>
+          </select>
+          <input name="sub-category" type="text" placeholder="Select a product" />
+          <input name=search-term type="text" placeholder="Search a product"/>
+          <button class=search-button type="button" onclick="location.href='results.html'">Search
+          </button>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer>
