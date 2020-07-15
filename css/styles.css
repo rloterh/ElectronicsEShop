@@ -1,15 +1,11 @@
-/* colors:
-#d35266
-#888
-#383838 */
 @font-face {
   font-family: "Gotham Rounded-Light";
-  src: url("../assets/fonts/GothamRounded-Light.otf"); 
+  src: url("../assets/fonts/GothamRounded-Light.otf");
 }
 
 @font-face {
   font-family: "Gotham Rounded-Bold";
-  src: url("../assets/fonts/GothamRounded-Bold.otf"); 
+  src: url("../assets/fonts/GothamRounded-Bold.otf");
 }
 
 * {
@@ -154,7 +150,7 @@ body {
   border: 0;
 }
 
-.product-search-form .search-button { 
+.product-search-form .search-button {
   color: #888;
   background-color: #383838;
   padding-right: 15px;
@@ -205,6 +201,12 @@ body {
   padding: 0;
 }
 
+.product-category-heading i {
+  color: #888;
+  font-size: 1.6rem;
+  margin-right: 10px;
+}
+
 .ad-rating li i {
   margin: 0;
   font-size: 1.8rem;
@@ -212,14 +214,12 @@ body {
 
 .hot-ad-image img {
   padding: 20px;
-  /* background: rgba(182, 230, 11, 0.7) url("../assets/patterns/criss-cross.png") repeat; */
-  /* background-color: goldenrod; */
 }
 
 .ad-details h3 {
   color: #d35266;
   font-size: 2rem;
-  line-height: 2.4rem; 
+  line-height: 2.4rem;
   margin-bottom: 10px;
 }
 
@@ -233,7 +233,7 @@ body {
   padding: 15px;
   border: 0;
   border-radius: 5px;
-  background-color: #dd3355;
+  background-color: #d335;
   color: #fff;
   margin-top: 40px;
 }
@@ -250,8 +250,14 @@ body {
   margin-right: 10px;
 }
 
-.ads-buy-button ul > li:first-child {
+.ads-buy-button ul>li:first-child {
   border-right: #383838 solid 1px;
+}
+
+.product-category-heading i {
+  color: #888;
+  font-size: 1.6rem;
+  margin-right: 10px;
 }
 
 .product-categories {
@@ -270,12 +276,6 @@ body {
   font-family: 'Gotham Rounded-Light', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
-}
-
-.product-category-heading i {
-  color: #888;
-  font-size: 1.6rem;
-  margin-right: 10px;
 }
 
 .iproduct-grid {
@@ -344,7 +344,7 @@ body {
 
 .iproduct-item-rating .ad-rating i {
   font-size: 1.2rem;
- }
+}
 
 .rating-text-label {
   font-size: 1.3rem;
@@ -356,7 +356,7 @@ body {
   margin-top: 14px;
 }
 
-.cart-to-price a > i,
+.cart-to-price a>i,
 .product-item-price {
   font-size: 2.2rem;
   color: #b9374a;
@@ -383,11 +383,12 @@ body {
 }
 
 .footer-categories-nav ul,
-.footer-navigations {
+.footer-navigations ul {
   list-style: none;
 }
 
-.footer-categories-nav li a{
+.footer-categories-nav li a,
+.footer-navigations ul {
   text-decoration: none;
   color: #383838;
 }
