@@ -64,10 +64,15 @@ body {
   font-size: 1.4rem;
 }
 
-.main-menu i {
+.main-menu i,
+.nav-folded-menu i {
   font-size: 1.4rem;
   color: #fff;
   padding-right: 5px;
+}
+
+.nav-folded-menu i {
+  display: none;
 }
 
 .user-login {
@@ -201,7 +206,7 @@ body {
   margin-right: 10px;
 }
 
-.cart-to-price a>i,
+.cart-to-price a > i,
 .product-item-price {
   font-size: 2.2rem;
   color: #b9374a;
@@ -238,6 +243,7 @@ body {
 
 .ads-buy-button {
   /* padding: 15px 0; */
+  display: inline-block;
   border: 0;
   border-radius: 5px;
   background-color: #d35;
@@ -272,7 +278,7 @@ body {
   margin-right: 10px;
 }
 
-.ads-buy-button ul>li:first-child {
+.ads-buy-button ul > li:first-child {
   border-right: #383838 solid 1px;
 }
 
@@ -443,17 +449,31 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .main-logo {
+    margin-right: 35%;
+  }
+
+  .nav-folded-menu i {
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 35px;
+  }
+
+  .main-menu {
+    display: none;
+  }
+
   .hot-ad-article {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 0p;
+    display: block;
   }
 
   .iproduct-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2%;
-    padding-bottom: 80px;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 
+  .footer-contents-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 928px) {
@@ -484,7 +504,6 @@ footer {
     font-size: 1.2rem;
     line-height: 1.6rem;
   }
-}
 }
 
 @media screen and (max-width: 1024px) {
