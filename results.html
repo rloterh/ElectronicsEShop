@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Welcome | E-Shop</title>
+  <title>Welcome | Search Etroniques</title>
   <meta name="description" content="Shop for various electronic products here and save more!">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
@@ -37,25 +37,26 @@
 
   <main>
     <section class="product-search-section">
-      <h1 class="search-hero-title bold-face">etroniques</h1>
-      <h3 class="search-attention-text bold-face">Welcome to the Best DEALS yet, save whiles you shop quality!</h3>
+
       <div class="product-search">
+        
+        
         <form class="product-search-form">
           <select name=categories>
             <option>iProducts</option>
             <option value=iphones>iPhones</option>
             <option value=iPad>iPad</option>
             <option value=iMac>iMac</option>
-            <option value=macBookPro>macBook Pro</option>
+            <option value=macBookPro selected="selected">macBook</option>
           </select>
-          <input name="sub-category" type="text" placeholder="Select a product" />
-          <input name=search-term type="text" placeholder="Search a product" />
+          <input name="sub-category" type="text" placeholder="MacBook Pro" />
+          <input name=search-term type="text" placeholder="2020 MacBook pro 13" />
           <button class=search-button type="button" onclick="location.href='results.html'">Search
           </button>
         </form>
       </div>
     </section>
-    <section class="hot-ad">
+    <!-- <section class="hot-ad">
       <h2 class="hot-ad-title">hot <span><img src="assets/icons/apple-logo.png" alt="apple icon"></span> deals!</h2>
       <article class="hot-ad-article">
         <div class="hot-ad-image">
@@ -83,7 +84,14 @@
           </div>
         </div>
       </article>
+    </section> -->
+    <section class="search-results-content">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
     </section>
+
+
     <article class="product-categories">
       <section class="iphone-category">
         <h3 class="product-category-heading bold-face"><i class="fa fa-mobile"></i>iPhones <span>(Latest arrivals,
@@ -407,7 +415,7 @@
               </div>
             </div>
           </div>
-           <div class="iproduct-item">
+          <div class="iproduct-item">
             <div class="iproduct-item-image">
               <img src="images/ipad-5.png" alt="product image">
             </div>
