@@ -458,7 +458,8 @@ footer {
 
 .footer-copyright {
   display: flex;
-  justify-content: space-between;align-items: center;
+  justify-content: space-between;
+  align-items: center;
   border-top: solid 1px #ccc;
   padding: 20px 5%;
 }
@@ -479,6 +480,91 @@ footer {
 .searh-results-hero {
   display: flex;
   flex-direction: column;
+}
+
+.mw-900 {
+  max-width: 900px;
+  margin: auto;
+}
+
+.search-results-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.product-search-filter {
+  grid-row: 1 / span 2;
+  border-right: 1px solid #ccc;
+  padding: 24px 34px 45px;
+}
+
+.product-search-filter h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #383838;
+  margin-bottom: 14px;
+}
+
+.search-filter-age,
+.search-filter-divice {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.search-filter-age li,
+.search-filter-divice li {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.search-filter-age input,
+.search-filter-divice input {
+  margin-right: 8px;
+}
+
+.search-filter-divice-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.product-search-result-text {
+  padding: 14px 0 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+.product-search-result-text p {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  padding-left: 60px;
+}
+
+.result-description h4 {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+
+.result-page-main .product-categories {
+  padding: 0;
+}
+
+.product-search-result {
+  padding: 40px;
+}
+
+.product-search-result .iproduct-grid {
+  display: block;
+}
+
+.product-search-result .iproduct-item {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(225, 225, 225, 0);
+  margin-bottom: 20px;
+  padding-left: 12px;
 }
 
 @media screen and (max-width: 480px) {
@@ -540,6 +626,11 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+
+  .product-search-result .iproduct-item {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -553,7 +644,8 @@ footer {
     margin-left: 35px;
   }
 
-  .main-menu {
+  .main-menu,
+  .product-search-filter {
     display: none;
   }
 
@@ -581,6 +673,20 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .search-results-content {
+    display: block !important;
+  }
+
+  .product-search-result-text {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .product-search-result-text p {
+    padding: 0;
   }
 }
 
