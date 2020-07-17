@@ -289,6 +289,7 @@ body {
 
 .product-category-heading {
   font-size: 2.2rem;
+  padding-top: 38px;
   padding-bottom: 12px;
   border-bottom: #ddd solid 1px;
   margin-bottom: 24px;
@@ -448,9 +449,70 @@ footer {
   letter-spacing: 0.2rem;
 }
 
+@media screen and (max-width: 480px) {
+  .main-nav-ad-button {
+    display: none;
+  }
+
+  .iproduct-grid {
+    display: block;
+    padding-bottom: 10px !important;
+  }
+
+  .search-hero-title {
+    text-transform: uppercase;
+    font-size: 3.7rem;
+    line-height: 4rem;
+    font-weight: 500;
+  }
+
+  .product-categories {
+    padding-bottom: 0;
+  }
+
+  .product-search-form select,
+  .product-search-form input:nth-child(2) {
+    display: none;
+  }
+
+  .iproduct-item {
+    padding: 40px;
+    margin: 38px 0;
+  }
+
+  .iproduct-item-image {
+    margin: 0;
+  }
+
+  .macbook-category,
+  .ipad-category {
+    margin: 0 !important;
+  }
+
+  .footer-contents-grid {
+    display: block;
+  }
+
+  .footer-eshop-highlight {
+    margin: 0 22px;
+  }
+
+  .footer-eshop-highlight,
+  .footer-categories-nav,
+  .footer-navigations {
+    margin-bottom: 20px;
+  }
+
+  .hot-ad-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .main-logo {
-    margin-right: 35%;
+    margin-right: 20%;
   }
 
   .nav-folded-menu i {
@@ -471,8 +533,22 @@ footer {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 
+  .macbook-category {
+    margin-bottom: 60px;
+  }
+
   .footer-contents-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-categories-nav {
+    margin-bottom: 20px;
+  }
+
+  .hot-ad-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
