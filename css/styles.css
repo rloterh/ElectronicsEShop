@@ -574,7 +574,9 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  .main-nav-ad-button {
+  .main-nav-ad-button,
+  .product-search-form select,
+  .product-search-form input:nth-child(2) {
     display: none;
   }
 
@@ -594,23 +596,15 @@ footer {
     padding-bottom: 0;
   }
 
-  .product-search-form select,
-  .product-search-form input:nth-child(2) {
-    display: none;
-  }
-
   .iproduct-item {
     padding: 40px;
     margin: 38px 0;
   }
 
-  .iproduct-item-image {
-    margin: 0;
-  }
-
+  .iproduct-item-image,
   .macbook-category,
   .ipad-category {
-    margin: 0 !important;
+    margin: 0;
   }
 
   .footer-contents-grid {
@@ -659,7 +653,8 @@ footer {
     display: none;
   }
 
-  .hot-ad-article {
+  .hot-ad-article,
+  .search-results-content {
     display: block;
   }
 
@@ -683,10 +678,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .search-results-content {
-    display: block !important;
   }
 
   .product-search-result-text {
