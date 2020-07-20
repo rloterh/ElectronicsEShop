@@ -631,6 +631,10 @@ footer {
     align-items: center;
   }
 
+  .product-search-result {
+    padding-bottom: 2px;
+  }
+
   .product-search-result .iproduct-item {
     display: flex;
     flex-direction: column;
