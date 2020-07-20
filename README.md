@@ -37,7 +37,7 @@ The most valuable contribution you can make is honest feedback!
 
 Let us know what you think of our work by getting in touch via social media or by creating an issue here on GitHub.
 
-Also see a walkthrough of the project here:[Video Recording](https://www.loom.com/share/4ff4c53e0b75438f8853f976bdfea5f2)
+Also see a walkthrough of the project here:[Video Recording](https://www.loom.com/share/fe9b5deff8394be7b9047310ea6fb00f)
 
 ## Show your support
 
