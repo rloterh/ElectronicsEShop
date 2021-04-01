@@ -4,7 +4,7 @@
 
 
 ## Description
-Etroniques is a fictional online retail shop for a range of Apple products. The core feature of this project is it ability to adapt to various device screen sizes. The rubric of this project is to demonstrate the creation of responsive website using media queries. Follow this link for a video demonstration of Etroniques: [video demonstration](https://www.loom.com/share/fe9b5deff8394be7b9047310ea6fb00fx/).
+Etroniques is a fictional online retail shop for a range of Apple products. The core feature of this project is it ability to adapt to various device screen sizes. The rubric of this project is to demonstrate the creation of responsive website using media queries. Follow this link for a video demonstration of Etroniques: [video demonstration](https://www.loom.com/share/fe9b5deff8394be7b9047310ea6fb00fx/)
 
 
 
