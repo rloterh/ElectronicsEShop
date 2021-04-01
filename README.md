@@ -1,54 +1,98 @@
-# HTML & CSS capstone project: Online shop for electronics
- > This project constitutes first capstone project, using HTML/ CSS and/ or other frameworks to build building responsive websites.
+# Etroniques - Electronics E-commerce Site (Microverse HTML/ CSS Capstone Project)
 
-![screenshot](images/screenshot_1.png)
-![screenshot](images/screenshot_2.png)
-![screenshot](images/screenshot_3.png)
+![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
+
+
+## Description
+Etroniques is a fictional online retail shop for a range of Apple products. The core feature of this project is it ability to adapt to various device screen sizes. The rubric of this project is to demonstrate the creation of responsive website using media queries. Follow this link for a video demonstration of Etroniques: [video demonstration](https://www.loom.com/share/fe9b5deff8394be7b9047310ea6fb00fx/).
+
+
+
+## Library Directory 📙
+
+| Contents                  |
+| ------------------------- |
+| [Live Demo](#live-demo) |
+| [App Screenshot](#app-screenshot) |
+| [Built With](#built-with)   |
+| [Getting Started](#getting-started)   |
+| [Testing](#testing)   |
+| [Author](#author)       |
+| [License](#license)       |
+
 
 
 ## Live Demo
+[Etroniques live demo](https://wizardly-stonebraker-3f717e.netlify.app/)
 
-[Live Demo Link](https://wizardly-stonebraker-3f717e.netlify.app/)
+
+## App Screenshot
+![img](https://user-images.githubusercontent.com/12745474/113326569-d72bba80-92e7-11eb-9c6c-8c7c039df8b2.png)
+
+
+## Built With
+
+- HTML
+- CSS
+- 
 
 ## Getting Started
 
-To get a local copy up and running follow these steps:
+1. - [Clone](https://github.com/rloterh/ElectronicsEShop.git) this project
+2. - Within the project root directory launch `index.html` in a web browser
 
-- Download this repository and open the zip file to a location of your choosing.
-- Open the index.html file in your browser of preference.
 
-### Prerequisites
+## Testing
 
-Congratulations. If you're viewing this README.md file on a browser, via the internet, with a working computer, you are in possession of the pre-requisites to enjoy our work.
+This project was tested using [W3C Validator](https://validator.w3.org/) and [Stylelint](https://stylelint.io/)
+ 
 
-## Authors
+### Validating HTML Syntax
 
-👤 **Robert Loterh**
+1. - Go to [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload)
+2. - Upload the file named `index.html` from the project directory
+3. - Click on the check button to validate
+4. - All test cases should pass, when no error message is shown 
 
-- Github: [@rloterh](https://github.com/rloterh)
-- Twitter: [@RLoterh](https://twitter.com/RLoterh)
-- Linkedin: [Robert Loterh](https://www.linkedin.com/in/robert-loterh-30b265135)
-- Email: rloterh@gmail.com
+### Validating CSS Syntax
+
+1. - Run the command `npm -v` to ensure node package manager is installed
+2. - Go to [npmjs.com](https://www.npmjs.com/get-npm) to install node package manager, if not installed
+3. - Go to the terminal, and navigate to project directory
+4. - Run the command `npm install`
+5. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
+6. - All test cases passes, when no error message is shown in the terminal
+
+
+## Author
+
+### 👨‍💻 Robert Loterh
+
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/rloterh) <br>
+[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/robert-loterh/) <br>
+[![EMAIL](https://img.shields.io/badge/-EMAIL-D14836?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:rloterh@gmail.com) <br>
+[![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/RLoterh) <br>
+
 
 
 ## 🤝 Contributing
 
-The most valuable contribution you can make is honest feedback!
+Contributions, issues and feature requests are welcome!
 
-Let us know what you think of our work by getting in touch via social media or by creating an issue here on GitHub.
+Feel free to check the [issues page](https://github.com/rloterh/ElectronicsEShop/issues/new).
 
-Also see a walkthrough of the project here:[Video Recording](https://www.loom.com/share/fe9b5deff8394be7b9047310ea6fb00fx)
 
 ## Show your support
 
-Give a ⭐️ if you like this project! Follow us and be the first to know about our next project!
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to [Mohammed Awad](https://www.behance.net/M_Awad) as designer of this layout.
-- Thanks to our Microverse Stand-Up Team for reviewing our code and providing constructive feedback.
+- Design idea by [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX) on Behance
+- Sample images used from [Unsplash](https://unsplash.com//) and [Pixabay](https://pixabay.com/)
+- Project specification designed by [Microverse](https://www.microverse.org/)
 
-## 📝 License
 
-This project is [MIT](lic.url) licensed.
+### License
 
+![Cocoapods](https://img.shields.io/cocoapods/l/AFNetworking?color=red&style=for-the-badge)
