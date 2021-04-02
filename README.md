@@ -38,8 +38,10 @@ Etroniques is a fictional online retail shop for a range of Apple products. The 
 
 ## Getting Started
 
-1. - [Clone](https://github.com/rloterh/ElectronicsEShop.git) this project
-2. - Within the project root directory launch `index.html` in a web browser
+1. - Copy the git link `https://github.com/rloterh/ElectronicsEShop.git` of this project
+2. - In your terminal run the command `git clone https://github.com/rloterh/ElectronicsEShop.git`
+3. - Navigate to the cloned project directory
+4. - Within the project root directory launch `index.html` in a web browser
 
 
 ## Testing
