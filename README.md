@@ -44,10 +44,28 @@ Etroniques is a fictional online retail shop for a range of Apple products. The 
 4. - Within the project root directory launch `index.html` in a web browser
 
 
-## Testing
+## Linters & Code Validation
 
-This project was tested using [W3C Validator](https://validator.w3.org/) and [Stylelint](https://stylelint.io/)
+The syntax of this project was mainly standardized using [W3C Validator](https://validator.w3.org/) and [Stylelint](https://stylelint.io/)
  
+
+### Validating JavaScript Syntax
+
+1. - Run the command `npm -v` to ensure node package manager is installed
+2. - Go to [npmjs.com](https://www.npmjs.com/get-npm) to install node package manager, if not installed
+3. - Go to the terminal, and navigate to project directory
+4. - Run the command `npm i`
+5. - Validate the javascript syntax and code standard by running the command `npx eslint app.js`
+6. - All validation passes, when no error message is shown in the terminal
+
+### Validating CSS Syntax
+
+1. - Run the command `npm -v` to ensure node package manager is installed
+2. - Go to [npmjs.com](https://www.npmjs.com/get-npm) to install node package manager, if not installed
+3. - Go to the terminal, and navigate to project directory
+4. - Run the command `npm i`
+5. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
+6. - All validation passes, when no error message is shown in the terminal
 
 ### Validating HTML Syntax
 
@@ -63,7 +81,7 @@ This project was tested using [W3C Validator](https://validator.w3.org/) and [St
 3. - Go to the terminal, and navigate to project directory
 4. - Run the command `npm install`
 5. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
-6. - All test cases passes, when no error message is shown in the terminal
+6. - All validation passes, when no error message is displayed in the terminal
 
 
 ## Author
